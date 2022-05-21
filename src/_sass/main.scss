@@ -1,9 +1,9 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+//setting
+@import './setting/variable';
 
-body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
-}
+//generic
+@import "./generic/normalise";
+@import "./generic/reset";
+@import "./generic/base";
+@import "./generic/selection";
+@import "./generic/scrollbar";
