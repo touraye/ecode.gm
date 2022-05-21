@@ -1,0 +1,21 @@
+{
+  "name": "ecode.gm",
+  "version": "1.0.0",
+  "description": "my person site",
+  "main": "index.js",
+   "scripts": {
+    "dev": "bundle exec jekyll serve --trace --livereload",
+    "lint:style": "npx stylelint \"**/*.scss\"",
+    "fix:style": "npx stylelint --fix \"**/*.scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touraye/ecode.gm.git"
+  },
+  "author": "Ebrima Touray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/touraye/ecode.gm/issues"
+  },
+  "homepage": "https://github.com/touraye/ecode.gm#readme"
+}

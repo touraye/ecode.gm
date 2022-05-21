@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-GB" }}">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    {% include utilities/meta-data.html %}
+    <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <div class="ob-page">
+     
+      {% include layouts/header.html %}
+     
+      {{ content }}
+     
+      {% include layouts/footer.html %}
+      
+    </div>
+
+    {% include layouts/fullscreen-nav.html %}
+    
+    <script src="{{ "/assets/js/index.js" | relative_url }}"></script>
   </body>
 </html>
+
+
+
+
+
+
